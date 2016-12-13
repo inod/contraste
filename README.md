@@ -1,5 +1,5 @@
 # contraste
-Contraste - Color scheme for Sublime Text 2/3 inspired by Sunburst, best for xml/html, php and javascript.
+Contraste - Color scheme for Sublime Text 2/3 inspired by Sunburst, best for xml/html, php, javascript and css.
 
 Changes from Sunburst:
     
