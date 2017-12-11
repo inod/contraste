@@ -166,7 +166,6 @@
 			<dict>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>⎇ diff.header</string>
@@ -223,130 +222,156 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>--------------------------------</string>
-			<key>settings</key>
-			<dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Markup: Italic</string>
+			<string>markup headings</string>
 			<key>scope</key>
-			<string>markup.italic</string>
+			<string>markup.heading</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
-				<key>foreground</key>
-				<string>#E9C062</string>
+				<string>bold</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markup: Bold</string>
+			<string>markup headings</string>
+			<key>scope</key>
+			<string>markup.heading punctuation.definition.heading</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FD971F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>markup h1</string>
+			<key>scope</key>
+			<string>markup.heading.1 punctuation.definition.heading</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F92672</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>markup links</string>
+			<key>scope</key>
+			<string>markup.underline.link</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#66D9EF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>markup bold</string>
 			<key>scope</key>
 			<string>markup.bold</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>bold</string>
-				<key>foreground</key>
-				<string>#E9C062</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markup: Underline</string>
+			<string>markup italic</string>
 			<key>scope</key>
-			<string>markup.underline</string>
+			<string>markup.italic</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>underline</string>
-				<key>foreground</key>
-				<string>#E18964</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Markup: Quote</string>
-			<key>scope</key>
-			<string>markup.quote</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#FEE09C12</string>
 				<key>fontStyle</key>
 				<string>italic</string>
-				<key>foreground</key>
-				<string>#E1D4B9</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markup: Heading</string>
+			<string>markup bold/italic</string>
 			<key>scope</key>
-			<string>markup.heading, markup.heading entity</string>
+			<string>markup.italic markup.bold | markup.bold markup.italic</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#632D04</string>
 				<key>fontStyle</key>
-				<string />
-				<key>foreground</key>
-				<string>#FEDCC5</string>
+				<string>bold italic</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markup: List</string>
+			<string>markup hr</string>
 			<key>scope</key>
-			<string>markup.list</string>
+			<string>punctuation.definition.thematic-break</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E1D4B9</string>
+				<string>#75715E</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markup: Raw</string>
+			<string>markup blockquote</string>
+			<key>scope</key>
+			<string>markup.quote punctuation.definition.blockquote</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#75715E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>markup bullets</string>
+			<key>scope</key>
+			<string>markup.list.numbered.bullet</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#AE81FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>markup bullets</string>
+			<key>scope</key>
+			<string>markup.list.unnumbered.bullet | (markup.list.numbered punctuation.definition)</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F8F8F8AA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>markup code</string>
 			<key>scope</key>
 			<string>markup.raw</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#B1B3BA08</string>
-				<key>fontStyle</key>
-				<string />
-				<key>foreground</key>
-				<string>#578BB3</string>
+				<string>#F8F8F818</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markup: Comment</string>
+			<string>markup punctuation</string>
 			<key>scope</key>
-			<string>markup comment</string>
+			<string>markup.raw punctuation.definition.raw</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 				<key>foreground</key>
-				<string>#F67B37</string>
+				<string>#F8F8F8AA</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markup: Separator</string>
+			<string>markup punctuation</string>
 			<key>scope</key>
-			<string>meta.separator</string>
+			<string>text &amp; (punctuation.definition.italic | punctuation.definition.bold | punctuation.definition.raw | punctuation.definition.link | punctuation.definition.metadata | punctuation.definition.image | punctuation.separator.table-cell | punctuation.section.table-header | punctuation.definition.constant)</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#242424</string>
 				<key>foreground</key>
-				<string>#60A633</string>
+				<string>#F8F8F8AA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -402,7 +427,6 @@
                 <string>#DDB700</string>
             </dict>
         </dict>
-
 		<dict>
 			<key>name</key>
 			<string>custom php</string>
@@ -414,7 +438,6 @@
 				<string>#FFFFFF</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Entity</string>
@@ -426,7 +449,6 @@
 				<string>#89BDFF</string>
 			</dict>
 		</dict>
-
     </array>
 	<key>uuid</key>
 	<string>871fd5f3-6491-4e3c-8634-0be9a1d939a3</string>
